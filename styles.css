@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "DM Sans", sans-serif;
+	background-color: hsl(27, 66%, 92%);
+}
+
+.card {
+	width: 350px;
+	margin: 60px auto;
+}
+.header {
+	background-color: hsl(10, 79%, 65%);
+	display: flex;
+	justify-content: center;
+	gap: 40%;
+	border-radius: 16px;
+	color: white;
+	margin-bottom: 16px;
+}
+.balance h2 {
+	margin-top: 1px;
+}
+.balance p {
+	margin-top: 16px;
+	font-weight: 500;
+}
+.charts {
+	background-color: hsl(33, 100%, 98%);
+	border-radius: 16px;
+	padding: 16px;
+}
+.spending {
+	color: hsl(25, 47%, 15%);
+	font-size: 21px;
+}
+.barsContainer {
+	height: 140px;
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	align-items: end;
+}
+.bar {
+	border-radius: 4px;
+	width: 30px;
+	height: 150px;
+	background-color: hsl(10, 79%, 65%);
+}
+.bar:hover {
+	opacity: 0.8;
+}
+.day {
+	color: hsl(28, 10%, 53%);
+}
+.amount {
+	color: white;
+	background-color: hsl(25, 47%, 15%);
+	text-align: center;
+	border-radius: 4px;
+	font-size: 12px;
+	position: absolute;
+	top: 2%;
+	padding: 2px 6px;
+	display: none;
+}
+hr {
+	border: 1px solid hsl(27, 66%, 92%);
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0;
+}
+.total {
+	display: flex;
+	flex-direction: column;
+}
+.total p {
+	color: hsl(28, 10%, 53%);
+	margin: 0;
+}
+.total h2 {
+	color: hsl(25, 47%, 15%);
+	font-size: 2rem;
+	margin: 0;
+}
+.lastMonth {
+	display: flex;
+	flex-direction: column;
+	text-align: end;
+}
+.lastMonth p {
+	margin: 0;
+	color: hsl(28, 10%, 53%);
+}
+.lastMonth b {
+	margin: 0;
+	color: hsl(25, 47%, 15%);
+}
+@media only screen and (min-width: 600px) {
+	.card {
+		width: 450px;
+		margin: 60px auto;
+	}
+	.header {
+		gap: 53%;
+	}
+}
