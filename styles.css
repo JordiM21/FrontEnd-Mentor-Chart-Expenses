@@ -102,10 +102,10 @@ hr {
 }
 @media only screen and (min-width: 600px) {
 	.card {
-		width: 450px;
-		margin: 60px auto;
+		width: 550px;
+		margin: 120px auto;
 	}
 	.header {
-		gap: 53%;
+		gap: 60%;
 	}
 }
